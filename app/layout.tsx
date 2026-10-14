@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
+import { Providers } from '@/components/Providers';
 
 export const metadata: Metadata = {
   title: 'Hook Labs — Your Treasury. On Autopilot.',
@@ -12,8 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        <main className="min-h-[80vh]">{children}</main>
+        <Providers>
+          <Navbar />
+          <main className="min-h-[80vh]">{children}</main>
         <footer className="mt-16 border-t border-line bg-void">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-3">
             <div>
@@ -51,6 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             © 2026 Hook Labs · BNB Chain
           </div>
         </footer>
+        </Providers>
       </body>
     </html>
   );

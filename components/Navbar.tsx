@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { Logo } from './Logo';
+import { WalletButton } from './WalletButton';
 
 const LINKS = [
   { href: '#how', label: 'How It Works' },
@@ -22,22 +23,18 @@ export function Navbar() {
               {l.label}
             </a>
           ))}
-          <a
-            href="https://github.com/carynyx80/Hooklabs"
-            target="_blank"
-            rel="noreferrer"
-            className="hl-btn rounded-lg px-4 py-2 font-semibold text-bone"
-          >
-            GitHub
-          </a>
+          <WalletButton />
         </nav>
-        <button
-          onClick={() => setOpen(!open)}
-          className="hl-ghost rounded-lg px-3 py-2 text-sm text-bone lg:hidden"
-          aria-label="Menu"
-        >
-          ☰
-        </button>
+        <div className="flex items-center gap-2 lg:hidden">
+          <WalletButton compact />
+          <button
+            onClick={() => setOpen(!open)}
+            className="hl-ghost rounded-lg px-3 py-2 text-sm text-bone"
+            aria-label="Menu"
+          >
+            ☰
+          </button>
+        </div>
       </div>
       {open && (
         <div className="border-t border-line bg-void px-4 py-4 lg:hidden">
@@ -56,7 +53,7 @@ export function Navbar() {
               href="https://github.com/carynyx80/Hooklabs"
               target="_blank"
               rel="noreferrer"
-              className="hl-btn rounded-lg px-4 py-2 text-center font-semibold text-bone"
+              className="hl-ghost rounded-lg px-4 py-2 text-center text-bone"
             >
               GitHub
             </a>

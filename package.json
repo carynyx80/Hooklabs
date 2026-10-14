@@ -2,16 +2,27 @@
   "name": "hook-labs",
   "version": "0.1.0",
   "private": true,
-  "description": "Hook Labs — landing page (BNB Chain treasury agents, in development)",
+  "description": "Hook Labs — autonomous treasury agents on BNB Chain",
   "scripts": {
     "dev": "next dev -p 3003",
     "build": "next build",
     "start": "next start -p 3003"
   },
   "dependencies": {
+    "@tanstack/react-query": "5.104.2",
+    "@wagmi/core": "2.22.1",
     "next": "14.2.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "viem": "2.57.6",
+    "wagmi": "2.19.5"
+  },
+  "overrides": {
+    "@wagmi/connectors": "6.2.0",
+    "@coinbase/wallet-sdk": "4.3.6",
+    "@base-org/account": "2.4.0",
+    "@coinbase/cdp-sdk": "1.58.0",
+    "ox": "0.14.56"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
