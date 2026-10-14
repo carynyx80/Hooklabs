@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="28 12 189 136">
+  <defs>
+    <linearGradient id="hl-stem-ico" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#931828"/>
+      <stop offset="0.22" stop-color="#CF3040"/>
+      <stop offset="0.5" stop-color="#701020"/>
+      <stop offset="1" stop-color="#3C0710"/>
+    </linearGradient>
+    <linearGradient id="hl-ribbon-ico" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DA4A5A"/>
+      <stop offset="0.45" stop-color="#A51C2E"/>
+      <stop offset="1" stop-color="#520B15"/>
+    </linearGradient>
+  </defs>
+  <rect x="28" y="12" width="189" height="136" rx="28" fill="#080808"/>
+  <path fill="url(#hl-stem-ico)" d="M34 18 C46 18 60 18 72 18 L65 27 L65 133 L72 142 C60 142 46 142 34 142 L41 133 L41 27 Z"/>
+  <path fill="url(#hl-stem-ico)" d="M140 18 C152 18 166 18 176 18 L169 27 L169 113 L201 113 L211 142 C184 142 158 142 133 142 L140 133 L140 27 Z"/>
+  <path fill="url(#hl-ribbon-ico)" d="M41 66 C80 66 100 74 140 96 C150 101 160 106 169 110 L165 124 C150 117 140 112 128 106 C95 89 75 80 43 80 Z"/>
+</svg>
