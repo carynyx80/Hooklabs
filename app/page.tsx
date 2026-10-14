@@ -27,16 +27,16 @@ export default function Home() {
                 How It Works
               </a>
               <a
-                href="https://github.com/carynyx80/Hooklabs"
+                href="https://x.com/Hooklabsworld"
                 target="_blank"
                 rel="noreferrer"
                 className="hl-ghost rounded-xl px-6 py-3 font-semibold text-bone"
               >
-                View on GitHub
+                Follow on X
               </a>
             </div>
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-charcoal px-3 py-1 text-xs text-ash">
-              Testnet application in development — follow along on GitHub.
+              Testnet application in development — follow along on X.
             </div>
           </div>
           <HeroViz />
@@ -113,12 +113,12 @@ export default function Home() {
           </p>
           <div className="mt-6 flex justify-center">
             <a
-              href="https://github.com/carynyx80/Hooklabs"
+              href="https://x.com/Hooklabsworld"
               target="_blank"
               rel="noreferrer"
               className="hl-btn rounded-xl px-6 py-3 font-semibold text-bone"
             >
-              Follow on GitHub
+              Follow on X
             </a>
           </div>
         </div>

@@ -38,12 +38,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="mb-2 font-semibold text-bone">Project</div>
               <div className="flex flex-col gap-1.5 text-ash">
                 <a
-                  href="https://github.com/carynyx80/Hooklabs"
+                  href="https://x.com/Hooklabsworld"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-bone"
                 >
-                  GitHub ↗
+                  X (Twitter) ↗
                 </a>
                 <span>Testnet app in development</span>
               </div>

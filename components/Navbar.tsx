@@ -50,12 +50,12 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="https://github.com/carynyx80/Hooklabs"
+              href="https://x.com/Hooklabsworld"
               target="_blank"
               rel="noreferrer"
               className="hl-ghost rounded-lg px-4 py-2 text-center text-bone"
             >
-              GitHub
+              Follow on X
             </a>
           </div>
         </div>
