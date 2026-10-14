@@ -36,7 +36,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-line bg-charcoal px-3 py-1 text-xs text-ash">
-              Testnet application in development — follow along on X.
+              Now live on BNB Chain mainnet — follow along on X.
             </div>
           </div>
           <HeroViz />
@@ -95,7 +95,7 @@ export default function Home() {
           {[
             ['Least privilege', 'The executor can only spend within caps to pre-approved targets.'],
             ['Timelocked changes', 'Sensitive configuration updates wait out a transparent delay.'],
-            ['Testnet first', 'Full validation on BSC testnet before any mainnet consideration.'],
+            ['Mainnet ready', 'Deployed on BNB Chain mainnet with testnet-validated safeguards.'],
           ].map(([t, d]) => (
             <div key={t} className="hl-card rounded-2xl p-5">
               <div className="font-semibold text-bone">{t}</div>
@@ -109,7 +109,7 @@ export default function Home() {
             The autonomous intelligence layer for on-chain treasuries.
           </h2>
           <p className="mx-auto mt-2 max-w-xl text-ash">
-            Follow the build as Hook Labs moves toward testnet.
+            Follow the build as Hook Labs grows on mainnet.
           </p>
           <div className="mt-6 flex justify-center">
             <a

@@ -6,7 +6,7 @@ import { Providers } from '@/components/Providers';
 export const metadata: Metadata = {
   title: 'Hook Labs — Your Treasury. On Autopilot.',
   description:
-    'Autonomous AI agents for on-chain token treasuries on BNB Chain. Currently in development.',
+    'Autonomous AI agents for on-chain token treasuries on BNB Chain.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -45,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 >
                   X (Twitter) ↗
                 </a>
-                <span>Testnet app in development</span>
+                <span>Live on BNB Chain mainnet</span>
               </div>
             </div>
           </div>

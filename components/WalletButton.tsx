@@ -1,6 +1,6 @@
 'use client';
 import { useAccount, useConnect, useDisconnect, useChainId, useSwitchChain } from 'wagmi';
-import { bscTestnet } from 'wagmi/chains';
+import { bsc } from 'wagmi/chains';
 import { shortAddress } from '@/lib/format';
 
 export function WalletButton({ compact = false }: { compact?: boolean }) {
@@ -34,10 +34,10 @@ export function WalletButton({ compact = false }: { compact?: boolean }) {
       )}
       {wrongNet && (
         <button
-          onClick={() => switchChain({ chainId: bscTestnet.id })}
+          onClick={() => switchChain({ chainId: bsc.id })}
           className="rounded-lg border border-crimson-700 px-3 py-2 text-xs text-bone"
         >
-          Switch to BSC Testnet
+          Switch to BNB Chain
         </button>
       )}
       <button

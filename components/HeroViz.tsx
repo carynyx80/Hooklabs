@@ -11,7 +11,7 @@ export function HeroViz() {
             <span className="inline-block h-2 w-2 rounded-full bg-crimson-800 flow-line" />
             LIVE POLICY ENGINE
           </span>
-          <span className="rounded border border-line px-2 py-0.5">BNB CHAIN · TESTNET</span>
+          <span className="rounded border border-line px-2 py-0.5">BNB CHAIN · MAINNET</span>
         </div>
         <svg viewBox="0 0 520 300" className="w-full" role="img" aria-label="Agent connected to vault and execution modules">
           {/* nodes */}

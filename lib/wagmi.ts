@@ -8,7 +8,7 @@ import { bsc, bscTestnet } from 'wagmi/chains';
 import { injected } from '@wagmi/core';
 
 export const wagmiConfig = createConfig({
-  chains: [bscTestnet, bsc],
+  chains: [bsc, bscTestnet],
   connectors: [injected()],
   transports: {
     [bscTestnet.id]: http('https://data-seed-prebsc-1-s1.binance.org:8545/'),
@@ -16,4 +16,5 @@ export const wagmiConfig = createConfig({
   },
 });
 
-export const SUPPORTED_CHAINS = [97, 56];
+export const SUPPORTED_CHAINS = [56, 97];
+export const DEFAULT_CHAIN_ID = 56;
