@@ -19,8 +19,8 @@ const config: Config = {
         line: '#292022',
       },
       fontFamily: {
-        sans: ['Inter', 'Geist', 'Space Grotesk', 'system-ui', 'sans-serif'],
-        display: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         glow: '0 0 24px rgba(133,15,34,0.35)',
