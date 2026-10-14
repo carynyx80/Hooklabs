@@ -15,7 +15,11 @@ export function HeroViz() {
         </div>
         <svg viewBox="0 0 520 300" className="w-full" role="img" aria-label="Agent connected to vault and execution modules">
           {/* nodes */}
-          <g fontFamily="monospace" fontSize="10" fill="#989292">
+          <g
+            fontSize="10"
+            fill="#989292"
+            style={{ fontFamily: 'var(--font-display), var(--font-inter), sans-serif' }}
+          >
             <rect x="190" y="20" width="140" height="58" rx="10" fill="#101010" stroke="#A31930" />
             <circle cx="260" cy="42" r="7" fill="#850F22" className="flow-line" />
             <text x="260" y="62" textAnchor="middle" fill="#F4F2F2">AI AGENT</text>

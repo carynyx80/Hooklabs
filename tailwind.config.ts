@@ -21,6 +21,9 @@ const config: Config = {
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
         display: ['var(--font-display)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
+        // Brand rule: every word on the site renders in our two fonts —
+        // even mono-styled labels use Space Grotesk, never a system mono stack.
+        mono: ['var(--font-display)', 'var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         glow: '0 0 24px rgba(133,15,34,0.35)',
