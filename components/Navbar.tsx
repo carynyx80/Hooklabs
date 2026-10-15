@@ -23,6 +23,9 @@ export function Navbar() {
               {l.label}
             </a>
           ))}
+          <a href="/create" className="hl-btn rounded-lg px-4 py-2 font-semibold text-bone">
+            Launch Agent
+          </a>
           <WalletButton />
         </nav>
         <div className="flex items-center gap-2 lg:hidden">
@@ -49,6 +52,13 @@ export function Navbar() {
                 {l.label}
               </a>
             ))}
+            <a
+              href="/create"
+              onClick={() => setOpen(false)}
+              className="hl-btn rounded-lg px-4 py-2 text-center font-semibold text-bone"
+            >
+              Launch Agent
+            </a>
             <a
               href="https://x.com/Hooklabsworld"
               target="_blank"
